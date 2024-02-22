@@ -2,8 +2,12 @@
 
 ## Project Overview
 
-The Palm-tree-counting project aims to develop a machine learning application capable of counting palm trees in aerial images with high accuracy. Leveraging pre-trained convolutional neural networks (CNN) like ResNet or EfficientNet, this model undergoes fine-tuning on a dataset of 2,860 images to achieve a validation Root Mean Squared Error (RMSE) of less than 1.5. The project is based on preprocessing data, modifying the CNN, and fine-tuning the model to ensure reliable performance across diverse aerial images.
+The Palm-tree-counting project aims to develop a machine learning application capable of counting palm trees in aerial images with high accuracy. Leveraging pre-trained convolutional neural networks (CNN) like ResNet or EfficientNet, this model undergoes fine-tuning on a dataset of 2,860 images to achieve a validation Root Mean Squared Error (RMSE) of less than 1.5. The project is based on preprocessing data, modifying the CNN, and fine-tuning the model to ensure reliable performance across diverse aerial images. 
 
+Note: this codebase was built using GPT Pilot and the aim was to see if these agents could perform ML on the following public challenge hosted by Zindi (thanks for this dataset and challenge!)
+https://zindi.africa/competitions/digital-africa-plantation-counting-challenge/data
+
+GPT Pilot executed the code that trained the model available in the repository. While it is a basic model, it highlights the possibility of training ML with ML and I look forward to experimenting more with this. 
 ## Getting Started
 
 ### Dependencies
@@ -79,3 +83,5 @@ This project is licensed under the ISC License. See the LICENSE file for more de
 
 - Special thanks to the TensorFlow team for their amazing machine learning framework.
 - The Flask community for the robust web server framework.
+- Zindi for hosting great challenges we can play with
+- GPT Pilot for an amazing full stack engineer agent. 
